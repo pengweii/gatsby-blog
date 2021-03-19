@@ -6,7 +6,6 @@
 
 module.exports = {
   /* Your site config here */
-  pathPrefix: "/gatsby-blog",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
