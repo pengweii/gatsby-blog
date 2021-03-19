@@ -1,11 +1,11 @@
-export default {
+export const Theme = {
   fonts: {
     main: "Muli, sans-serif",
     code: "Roboto Mono, monospace",
   },
   colors: {
     main1: "hsl(207, 70%, 59%)",
-    main1: "hsl(207, 70%, 94%)",
+    main2: "hsl(207, 70%, 94%)",
     dark1: "hsl(227, 2%, 12%)",
     dark2: "hsl(227, 2%, 26%)",
     dark3: "hsl(227, 2%, 64%)",
