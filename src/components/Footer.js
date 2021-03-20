@@ -4,6 +4,7 @@ import {
   FooterWrapper,
   FooterSocialWrapper,
   FooterSocialIcons,
+  P,
 } from "../elements"
 
 export const Footer = () => {
@@ -56,7 +57,9 @@ export const Footer = () => {
             <img src={data.github.publicURL} alt="github logo" />
           </a>
         </FooterSocialIcons>
-        <p>© 2021. All right reserved</p>
+        <P size="xSmall" color="dark3">
+          © 2021. All right reserved
+        </P>
       </FooterSocialWrapper>
     </FooterWrapper>
   )
